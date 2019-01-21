@@ -1,0 +1,11 @@
+% this program make data smooth with previous data trace
+function [Lidar_update_xy_wm_sm] = data_smooth(Lidar_trace,Lidar_update_xy_wm,smooth_step)
+len=length(Lidar_trace)
+if len>smooth_step
+    Lidar_update_xy_wm(1,1)=(Lidar_update_xy_wm(1,1)+Lidar_trace(len-smooth_step,1))/smooth_step;
+    Lidar_update_xy_wm(1,2)=(Lidar_update_xy_wm(1,2)+Lidar_trace(len-smooth_step,2))/smooth_step;
+else
+    Lidar_update_xy_wm_sm=Lidar_update_xy_wm;
+end
+
+

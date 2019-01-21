@@ -1,0 +1,290 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2539755043" file="D:\lidar_mmwave\RLA\RLA_15_Implementation-master\RLA_mat.prj" location="D:\lidar_mmwave\RLA\RLA_15_Implementation-master" name="RLA_mat" preferred-package-location="D:\lidar_mmwave\RLA\RLA_14_Implementation-master\RLA_mat\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>RLA_mat_offline</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Qi Song</param.authnamewatermark>
+    <param.email />
+    <param.company>Soleilwares</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Soleilwares\RLA_mat_offline\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\RLA_mat\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\RLA_mat\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\RLA_mat\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\RLA_mat</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.library.cpp</param.target.type>
+    <param.support.packages />
+    <param.namespace />
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace />
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Program Files\MATLAB\R2016b\bin</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\calc_angle.m</file>
+      <file>${PROJECT_ROOT}\calc_distance.m</file>
+      <file>${PROJECT_ROOT}\calc_distance_polar.m</file>
+      <file>${PROJECT_ROOT}\calc_Lidar_location.m</file>
+      <file>${PROJECT_ROOT}\calc_Lidar_location_w_displ.m</file>
+      <file>${PROJECT_ROOT}\calibration_mode.m</file>
+      <file>${PROJECT_ROOT}\convert_reflector_pool_world_map.m</file>
+      <file>${PROJECT_ROOT}\convert_world_map.m</file>
+      <file>${PROJECT_ROOT}\create_match_detect_pool.m</file>
+      <file>${PROJECT_ROOT}\create_match_pool.m</file>
+      <file>${PROJECT_ROOT}\create_match_ref_pool.m</file>
+      <file>${PROJECT_ROOT}\data_smooth.m</file>
+      <file>${PROJECT_ROOT}\gaussian_location_smooth.m</file>
+      <file>${PROJECT_ROOT}\Gaussianfilter.m</file>
+      <file>${PROJECT_ROOT}\gen_angle_pool.m</file>
+      <file>${PROJECT_ROOT}\generate_detected_pool.m</file>
+      <file>${PROJECT_ROOT}\generate_reflector_pool.m</file>
+      <file>${PROJECT_ROOT}\identify_reflector.m</file>
+      <file>${PROJECT_ROOT}\identify_reflector_polar.m</file>
+      <file>${PROJECT_ROOT}\index_reflector.m</file>
+      <file>${PROJECT_ROOT}\index_reflector_angle.m</file>
+      <file>${PROJECT_ROOT}\init_variable.m</file>
+      <file>${PROJECT_ROOT}\load_continous_scan_data.m</file>
+      <file>${PROJECT_ROOT}\load_previous_data.m</file>
+      <file>${PROJECT_ROOT}\load_reflector_map.m</file>
+      <file>${PROJECT_ROOT}\locate_reflector_polar.m</file>
+      <file>${PROJECT_ROOT}\locate_reflector_pool_xy.m</file>
+      <file>${PROJECT_ROOT}\locate_reflector_xy.m</file>
+      <file>${PROJECT_ROOT}\location_expectation.m</file>
+      <file>${PROJECT_ROOT}\LSF_ref_center.m</file>
+      <file>${PROJECT_ROOT}\LSF_xy.m</file>
+      <file>${PROJECT_ROOT}\map_rmse_error.m</file>
+      <file>${PROJECT_ROOT}\match_min_angle_reflector.m</file>
+      <file>${PROJECT_ROOT}\match_min_distance_reflector.m</file>
+      <file>${PROJECT_ROOT}\match_reflector.m</file>
+      <file>${PROJECT_ROOT}\match_reflector_pool.m</file>
+      <file>${PROJECT_ROOT}\measurement_mode.m</file>
+      <file>${PROJECT_ROOT}\plot_dist_angle_err.m</file>
+      <file>${PROJECT_ROOT}\plot_Lidar_data.m</file>
+      <file>${PROJECT_ROOT}\plot_lidar_xy.m</file>
+      <file>${PROJECT_ROOT}\plot_reflector.m</file>
+      <file>${PROJECT_ROOT}\plot_rot_acc_time.m</file>
+      <file>${PROJECT_ROOT}\plot_running_time.m</file>
+      <file>${PROJECT_ROOT}\plot_vel_acc_time.m</file>
+      <file>${PROJECT_ROOT}\Plot_world_map.m</file>
+      <file>${PROJECT_ROOT}\Plot_worldmap_Lidar_center_color.m</file>
+      <file>${PROJECT_ROOT}\Plot_worldmap_Lidar_center_view.m</file>
+      <file>${PROJECT_ROOT}\PolarToRect.m</file>
+      <file>${PROJECT_ROOT}\pose_expectation.m</file>
+      <file>${PROJECT_ROOT}\reflector_map_cali_scan.m</file>
+      <file>${PROJECT_ROOT}\reflector_map_read.m</file>
+      <file>${PROJECT_ROOT}\reflector_match_pool.m</file>
+      <file>${PROJECT_ROOT}\reflector_pool_rmse_error.m</file>
+      <file>${PROJECT_ROOT}\reflector_rmse_error.m</file>
+      <file>${PROJECT_ROOT}\replace_dist_matching_point.m</file>
+      <file>${PROJECT_ROOT}\rigid_transform_2D.m</file>
+      <file>${PROJECT_ROOT}\save_current_data.m</file>
+      <file>${PROJECT_ROOT}\unmatched_reflectors.m</file>
+      <file>${PROJECT_ROOT}\update_data_trace.m</file>
+      <file>${PROJECT_ROOT}\update_Lidar_scan_xy.m</file>
+      <file>${PROJECT_ROOT}\update_ref_reflector_pool.m</file>
+      <file>${PROJECT_ROOT}\update_scan_data_estimation.m</file>
+      <file>${PROJECT_ROOT}\vel_acc_calc.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>${PROJECT_ROOT}\calc_angle.m</file>
+          <file>${PROJECT_ROOT}\calc_distance.m</file>
+          <file>${PROJECT_ROOT}\calc_distance_polar.m</file>
+          <file>${PROJECT_ROOT}\calc_Lidar_location.m</file>
+          <file>${PROJECT_ROOT}\calc_Lidar_location_w_displ.m</file>
+          <file>${PROJECT_ROOT}\calibration_mode.m</file>
+          <file>${PROJECT_ROOT}\convert_reflector_pool_world_map.m</file>
+          <file>${PROJECT_ROOT}\convert_world_map.m</file>
+          <file>${PROJECT_ROOT}\create_match_detect_pool.m</file>
+          <file>${PROJECT_ROOT}\create_match_pool.m</file>
+          <file>${PROJECT_ROOT}\create_match_ref_pool.m</file>
+          <file>${PROJECT_ROOT}\data_smooth.m</file>
+          <file>${PROJECT_ROOT}\gaussian_location_smooth.m</file>
+          <file>${PROJECT_ROOT}\Gaussianfilter.m</file>
+          <file>${PROJECT_ROOT}\gen_angle_pool.m</file>
+          <file>${PROJECT_ROOT}\generate_detected_pool.m</file>
+          <file>${PROJECT_ROOT}\generate_reflector_pool.m</file>
+          <file>${PROJECT_ROOT}\identify_reflector.m</file>
+          <file>${PROJECT_ROOT}\identify_reflector_polar.m</file>
+          <file>${PROJECT_ROOT}\index_reflector.m</file>
+          <file>${PROJECT_ROOT}\index_reflector_angle.m</file>
+          <file>${PROJECT_ROOT}\init_variable.m</file>
+          <file>${PROJECT_ROOT}\load_continous_scan_data.m</file>
+          <file>${PROJECT_ROOT}\load_previous_data.m</file>
+          <file>${PROJECT_ROOT}\load_reflector_map.m</file>
+          <file>${PROJECT_ROOT}\locate_reflector_polar.m</file>
+          <file>${PROJECT_ROOT}\locate_reflector_pool_xy.m</file>
+          <file>${PROJECT_ROOT}\locate_reflector_xy.m</file>
+          <file>${PROJECT_ROOT}\location_expectation.m</file>
+          <file>${PROJECT_ROOT}\LSF_ref_center.m</file>
+          <file>${PROJECT_ROOT}\LSF_xy.m</file>
+          <file>${PROJECT_ROOT}\map_rmse_error.m</file>
+          <file>${PROJECT_ROOT}\match_min_angle_reflector.m</file>
+          <file>${PROJECT_ROOT}\match_min_distance_reflector.m</file>
+          <file>${PROJECT_ROOT}\match_reflector.m</file>
+          <file>${PROJECT_ROOT}\match_reflector_pool.m</file>
+          <file>${PROJECT_ROOT}\measurement_mode.m</file>
+          <file>${PROJECT_ROOT}\plot_dist_angle_err.m</file>
+          <file>${PROJECT_ROOT}\plot_Lidar_data.m</file>
+          <file>${PROJECT_ROOT}\plot_lidar_xy.m</file>
+          <file>${PROJECT_ROOT}\plot_reflector.m</file>
+          <file>${PROJECT_ROOT}\plot_rot_acc_time.m</file>
+          <file>${PROJECT_ROOT}\plot_running_time.m</file>
+          <file>${PROJECT_ROOT}\plot_vel_acc_time.m</file>
+          <file>${PROJECT_ROOT}\Plot_world_map.m</file>
+          <file>${PROJECT_ROOT}\Plot_worldmap_Lidar_center_color.m</file>
+          <file>${PROJECT_ROOT}\Plot_worldmap_Lidar_center_view.m</file>
+          <file>${PROJECT_ROOT}\PolarToRect.m</file>
+          <file>${PROJECT_ROOT}\pose_expectation.m</file>
+          <file>${PROJECT_ROOT}\reflector_map_cali_scan.m</file>
+          <file>${PROJECT_ROOT}\reflector_map_read.m</file>
+          <file>${PROJECT_ROOT}\reflector_match_pool.m</file>
+          <file>${PROJECT_ROOT}\reflector_pool_rmse_error.m</file>
+          <file>${PROJECT_ROOT}\reflector_rmse_error.m</file>
+          <file>${PROJECT_ROOT}\replace_dist_matching_point.m</file>
+          <file>${PROJECT_ROOT}\rigid_transform_2D.m</file>
+          <file>${PROJECT_ROOT}\save_current_data.m</file>
+          <file>${PROJECT_ROOT}\unmatched_reflectors.m</file>
+          <file>${PROJECT_ROOT}\update_data_trace.m</file>
+          <file>${PROJECT_ROOT}\update_Lidar_scan_xy.m</file>
+          <file>${PROJECT_ROOT}\update_ref_reflector_pool.m</file>
+          <file>${PROJECT_ROOT}\update_scan_data_estimation.m</file>
+          <file>${PROJECT_ROOT}\vel_acc_calc.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\calc_distance_mex.mexw64</file>
+      <file>${PROJECT_ROOT}\index_reflector_mex.mexw64</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\RLA_mat\for_testing" name="readme.txt" optional="true">D:\lidar_mmwave\RLA\RLA_15_Implementation-master\RLA_mat\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\RLA_mat\for_testing" name="RLA_mat_offline.h" optional="false">D:\lidar_mmwave\RLA\RLA_15_Implementation-master\RLA_mat\for_testing\RLA_mat_offline.h</file>
+      <file location="${PROJECT_ROOT}\RLA_mat\for_testing" name="RLA_mat_offline.dll" optional="false">D:\lidar_mmwave\RLA\RLA_15_Implementation-master\RLA_mat\for_testing\RLA_mat_offline.dll</file>
+      <file location="${PROJECT_ROOT}\RLA_mat\for_testing" name="RLA_mat_offline.lib" optional="false">D:\lidar_mmwave\RLA\RLA_15_Implementation-master\RLA_mat\for_testing\RLA_mat_offline.lib</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
